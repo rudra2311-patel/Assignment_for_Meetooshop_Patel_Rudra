@@ -7,7 +7,7 @@ A simple and clean Flutter app to manage daily tasks. Built with minimal depende
 - Swipe to delete tasks quickly
 - Date and time picker for task scheduling
 - Clean teal-themed UI with smooth animations
-- No database - tasks are stored in 
+
 
 ## How to Run
 1. Clone this repo and navigate to the project folder
@@ -16,14 +16,9 @@ A simple and clean Flutter app to manage daily tasks. Built with minimal depende
 4. Run `flutter run`
 
 ## What I Learned
+Creating this app taught me the importance of effective state management in Flutter. I implemented a straightforward method where a ChangeNotifier class maintains the task list, and whenever tasks are added, removed, or modified, it informs the UI to refresh. This approach was tidier than relying on setState throughout. Integrating the date picker involved some experimentation - I needed to learn how to format dates correctly and transfer them between screens. The swipe-to-delete feature using Dismissible turned out to be quite simple once I grasped its functionality. Overall, this project enhanced my understanding of how to organize a Flutter app with distinct models, data management, and UI components rather than consolidating everything into a single file.
 
-Building this app taught me how to properly manage state in Flutter. I used a simple approach where a `ChangeNotifier` class holds the task list, and whenever tasks are added, deleted, or updated, it notifies the UI to rebuild. This was cleaner than using `setState` everywhere.
-
-The date picker integration took some trial and error - I had to figure out how to format dates properly and pass them between screens. Swipe-to-delete with `Dismissible` was surprisingly straightforward once I understood how it works.
-
-Overall, this project helped me understand how to structure a Flutter app with separate models, data handling, and UI layers instead of putting everything in one file.
-
-## Sources & Credits
+## Sources : 
 
 - **Lottie Animation**: Empty state animation from [LottieFiles](https://lottiefiles.com/)
 - **Packages Used**:

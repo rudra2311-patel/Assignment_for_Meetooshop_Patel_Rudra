@@ -33,3 +33,10 @@ Overall, this project helped me understand how to structure a Flutter app with s
   - `ftoast` - Toast notifications
   - `uuid` - Unique task IDs
 - **UI Inspiration**: Various task manager apps on Dribbble and Google Play
+
+Images
+
+<img width="529" height="1133" alt="Screenshot 2025-12-30 162218" src="https://github.com/user-attachments/assets/eaafaa08-bda7-45c1-9da2-6b6993da6a41" />
+<img width="531" height="1137" alt="Screenshot 2025-12-30 162210" src="https://github.com/user-attachments/assets/4c9251ad-7aab-46dd-b1f0-6e75a9c758ae" />
+<img width="561" height="1141" alt="Screenshot 2025-12-30 162133" src="https://github.com/user-attachments/assets/47254ce3-a6f3-4355-9202-768e0289e390" />
+
